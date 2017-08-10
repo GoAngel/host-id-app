@@ -4,6 +4,7 @@ def acrUrl = 'dockerciitsika.azurecr.io'
 def gitHubRepoUrl = 'https://github.com/GoAngel/host-id-app.git'
 def image = "${acrUrl}/host-id"
 def shortCommit = ''
+
 def tag = ''
 
 def acrCredentialsId = 'acr'
