@@ -1,7 +1,7 @@
 properties([pipelineTriggers([githubPush()])])
 
 def acrUrl = 'dockerciitsika.azurecr.io'
-def gitHubRepoUrl = 'https://github.com/goangel/host-id-app.git'
+def gitHubRepoUrl = 'https://github.com/GoAngel/host-id-app.git'
 def image = "${acrUrl}/host-id"
 def shortCommit = ''
 def tag = ''
